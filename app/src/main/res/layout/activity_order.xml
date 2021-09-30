@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".module.mine.OrderActivity">
+
+    <com.qmuiteam.qmui.widget.QMUITopBar
+        android:id="@+id/order_topBar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:qmui_topbar_left_back_drawable_id="@drawable/ic_check_block_24dp"
+        app:qmui_topbar_text_btn_color_state_list="@android:color/black"
+        app:qmui_topbar_title_color="@android:color/black"
+        />
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:id="@+id/tab_gank"
+        android:layout_marginTop="20dp"
+        style="@style/tabLayoutStyle"
+        app:tabGravity="fill"
+        app:tabMaxWidth="0dp"
+        app:tabIndicatorColor="#F80707"
+        app:tabIndicatorHeight="2dp"
+        app:tabMinWidth="2dp"
+         app:tabIndicatorFullWidth="false"
+        />
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

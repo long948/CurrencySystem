@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:oneshot="false"
+    tools:ignore="ResourceName">
+
+    <item
+        android:drawable="@mipmap/hd_ic_loading_one"
+        android:duration="130"></item>
+    <item
+        android:drawable="@mipmap/hd_ic_loading_two"
+        android:duration="130"></item>
+    <item
+        android:drawable="@mipmap/hd_ic_loading_there"
+        android:duration="130"></item>
+
+</animation-list>

@@ -1,11 +1,31 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="SplashStyle" parent="QMUI.Compat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@drawable/windows_bg</item>
+    </style>
+    <!--TabLayout 格式   app:tabGravity -->
+    <style name="tabLayoutStyle">
 
+        <item name="android:textSize">12sp</item>
+<!--        <item name="tabIndicator">@drawable/shape_tab_indicator</item>-->
+        <item name="tabMode">fixed</item>
+<!--        <item name="tabIndicatorColor">@color/tab_un_select</item>-->
+<!--        <item name="tl_indicator_color">#5173FD</item>-->
+<!--        <item name="tabSelectedTextColor">@color/tab_select</item>-->
+        <item name="tabTextColor">#8390C3</item>
+        <item name="tabBackground">@color/transparent</item>
+
+    </style>
 </resources>
